@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "description": "test",
+  "main": "app.js",
+  "dependencies": {
+    "express": "~4.14.0"
+  },
+  "devDependencies": {},
+//  npm run test
+  "scripts": {
+    "test": "node test.js && node test2.js",
+    "buildJs":"browserify browser/main.js > static/bundle.js"
+  },
+  "author": "yyt",
+  "license": "ISC"
+}
